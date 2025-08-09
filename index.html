@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>D'MUNIZ PIRES Advogados</title>
+<style>
+.hero {
+  background-color: #1f6fb2;
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.hero h2 {
+  font-size: 28px;
+  margin-top: 0;
+}
+.hero p {
+  font-size: 16px;
+}
+.areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+}
+</style>
+
+<style id="hero-override-v2">
+/* v2 hero azul escuro proporcional */
+.hero{
+  background: linear-gradient(135deg,#0a3a6a 0%, #0b4d8b 100%) !important;
+  padding: 0 !important;
+  min-height: 44vh !important;
+  display:flex !important;
+  align-items:center !important;
+}
+.hero .overlay{
+  width:100%;
+  padding-top: clamp(10px, 1.6vw, 22px) !important;
+  padding-bottom: clamp(12px, 2vw, 28px) !important;
+  text-align: center !important;
+}
+.logo-hero{ height: clamp(104px, 10.5vw, 132px) !important; margin-bottom: clamp(4px, .8vw, 10px) !important; }
+.hero .overlay h1{ margin: 2px 0 6px 0 !important; font-size: clamp(22px, 2.4vw, 28px) !important; line-height: 1.2; }
+.hero .overlay p{ margin: 0 !important; font-size: clamp(12px, 1.2vw, 14px) !important; opacity: .95; }
+.hero::before{ content:none !important; display:none !important; }
+</style>
+
+</head>
+<body>
+<div class="hero">
+  <h1>D'MUNIZ PIRES</h1>
+  <h2>ADVOGADOS</h2>
+  <p><strong>Soluções Jurídicas Inteligentes</strong></p>
+  <p>Excelência, ética e estratégia para proteger seus direitos.</p>
+</div>
+
+<h3>Áreas de Atuação</h3>
+<div class="areas">
+  <div class="card">
+    <h4>Previdenciário</h4>
+    <p>INSS (RGPS) e Regimes Próprios — municipal, estadual e federal (RPPS).</p>
+    <p>Revisões e planejamento previdenciário.</p>
+  </div>
+</div>
+
+<h3>Fale Conosco</h3>
+<p>Telefone: (11) 4331-1235</p>
+<form>
+  <input placeholder="Nome"><br>
+  <input placeholder="E-mail"><br>
+  <input placeholder="Assunto"><br>
+  <textarea placeholder="Mensagem"></textarea><br>
+  <button>Enviar</button>
+</form>
+</body>
+</html>
